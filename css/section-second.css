@@ -1,0 +1,6 @@
+#section-second {
+  width: 100%; /* 너비 */
+  height: 1000px; /* 높이 */
+  background-color: #f1f1f1;
+  overflow-y: scroll;
+}

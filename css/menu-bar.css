@@ -1,0 +1,25 @@
+#menu-bar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  justify-content: space-between;
+}
+#menu-bar ul {
+  margin: 0px 25px;
+  display: flex;
+  position: relative;
+  width: 70%;
+
+  justify-content: space-between;
+}
+#menu-bar ul li {
+  display: flex;
+  flex-direction: row;
+}
+#menu-bar ul li:hover {
+  font-size: large;
+  font-weight: 700;
+  cursor: pointer;
+}
